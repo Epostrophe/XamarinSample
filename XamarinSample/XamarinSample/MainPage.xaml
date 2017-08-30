@@ -4,7 +4,7 @@
              xmlns:local="clr-namespace:XamarinSample"
              x:Class="XamarinSample.MainPage">
 
-	<Label Text="Hello world!" 
+	<Label Text="Hello world." 
            VerticalOptions="Center" 
            HorizontalOptions="Center" />
 
