@@ -3,20 +3,23 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+
 using Xamarin.Forms;
+using Xamarin.Forms.Xaml;
 
 namespace XamarinSample
 {
-    public partial class MainPage : ContentPage
+    [XamlCompilation(XamlCompilationOptions.Compile)]
+    public partial class Assignment2 : ContentPage
     {
-        public MainPage()
+        public Assignment2()
         {
             InitializeComponent();
         }
 
         private void Button_Clicked(object sender, EventArgs e)
         {
-            Navigation.PushAsync(new Assignment2());
+            Navigation.PopAsync();
         }
     }
 }

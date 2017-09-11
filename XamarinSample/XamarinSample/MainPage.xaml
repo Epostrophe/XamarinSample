@@ -61,7 +61,10 @@
             
             <Editor HeightRequest="100"/>
 
-            <Button Text="Submit Registration"/>
+            <Button Text="Submit Registration"
+                    Clicked="Button_Clicked"/>
+            
+            
 
 
 
