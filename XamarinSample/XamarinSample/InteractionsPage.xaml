@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XamarinSample.InteractionsPage">
+    <ContentPage.Content>
+        <StackLayout>
+        
+            
+            <Label Text="Enter two numbers to add" />
+            
+
+            <Entry x:Name="firstnumberEntry" Placeholder="Enter a number" Keyboard="Numeric"/>
+
+            <Entry x:Name="secondnumberEntry" Placeholder="Enter a number" Keyboard="Numeric"/>
+
+
+            <Button x:Name="interactionButton" 
+                    Text="Add these numbers"
+                    Clicked="interactionButton_Clicked"/>
+
+            <Label x:Name="resultLabel" Text=""/>
+
+            
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

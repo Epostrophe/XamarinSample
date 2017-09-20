@@ -41,6 +41,9 @@
     <Compile Include="Assignment2.xaml.cs">
       <DependentUpon>Assignment2.xaml</DependentUpon>
     </Compile>
+    <Compile Include="InteractionsPage.xaml.cs">
+      <DependentUpon>InteractionsPage.xaml</DependentUpon>
+    </Compile>
     <Compile Include="MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
@@ -74,6 +77,12 @@
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Assignment2.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="InteractionsPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
       <SubType>Designer</SubType>
     </EmbeddedResource>

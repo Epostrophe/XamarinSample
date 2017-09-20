@@ -63,8 +63,11 @@
 
             <Button Text="Submit Registration"
                     Clicked="Button_Clicked"/>
-            
-            
+
+            <Button Text="Go to back end interation"
+                    Clicked="Button_Clicked_1"/>
+
+
 
 
 
