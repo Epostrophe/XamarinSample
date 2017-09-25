@@ -67,7 +67,9 @@
             <Button Text="Go to back end interation"
                     Clicked="Button_Clicked_1"/>
 
-
+            <Button Text="Go to ToDo"
+                     x:Name="todoButton"
+                     Clicked="todoButton_Clicked"/>
 
 
 
