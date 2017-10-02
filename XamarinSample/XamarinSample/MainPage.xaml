@@ -71,6 +71,10 @@
                      x:Name="todoButton"
                      Clicked="todoButton_Clicked"/>
 
+            <Button Text="Go to grids"
+                   x:Name="gridButton"
+                   Clicked="gridButton_Clicked"/>
+
 
 
         </StackLayout>

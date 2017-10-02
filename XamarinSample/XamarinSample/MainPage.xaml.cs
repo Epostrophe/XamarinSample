@@ -28,5 +28,10 @@ namespace XamarinSample
         {
             Navigation.PushAsync(new ToDoPage());
         }
+
+        private void gridButton_Clicked(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new GridPage());
+        }
     }
 }
